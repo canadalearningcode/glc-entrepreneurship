@@ -1,11 +1,47 @@
 /* CSS files add styling rules to your content */
 
 body {
-  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
-  margin: 2em;
+  font-family: Verdana,Geneva,sans-serif;
+  background-color: WhiteSmoke;
+  margin:0px;
+}
+
+header {
+  background-color: Aquamarine;
+  text-align:center;
+  margin-top:0px;
+  margin-bottom: 50px;
+  padding:5px;
+}
+
+section.main {
+  width: 70%;
+  margin-left:auto;
+  margin-right: auto;
 }
 
 h1 {
-  font-style: italic;
-  color: #373fff;
+  color: black;
+}
+
+a {
+  color: Aquamarine;
+}
+
+img{
+  max-width:100%;
+}
+
+section.image {
+  width:50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  background-color: DimGrey;
+  padding: 20px 10px;
+  color: white;
+  text-align: center;
+  margin-top:50px;
 }
