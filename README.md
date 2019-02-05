@@ -4,46 +4,17 @@
 
 ## Quick Links
 
-<!--Preview Lead Instructor Notes: <a href="https://ladieslearningcode.github.io/glc-webmaking-with-html-css/notes-en.html">ladieslearningcode.github.io/glc-webmaking-with-html-css/notes-en.html</a>-->
+Preview Instructor Notes: <a href="https://ladieslearningcode.github.io/glc-entrepreneurship/notes-en.html">ladieslearningcode.github.io/glc-entrepreneurship/notes-en.html</a>
 
 Preview Slides: <a href="https://ladieslearningcode.github.io/glc-entrepreneurship/slides-en.html">ladieslearningcode.github.io/glc-entrepreneurship/slides-en.html</a>
 
-<!--
-## Additional Resources (Optional)
-
-Unplugged Activities: <a href="http://bit.ly/unplugged-activities-doc">bit.ly/unplugged-activities-doc</a>
-
-Youth Facilitator Handbook: <a href="http://bit.ly/youth-facilitator-handbook-doc">bit.ly/youth-facilitator-handbook-doc</a>
-
-
 # HOW TO USE:
-## Before the Workshop
-1 Week to Go
 
 * Download this folder.
-* Read the Lead Instructor Notes for context (open in your browser).
+* Update the network info on slide 1 (in a text editor, like <a href="https://atom.io/">atom.io</a>)
+* Open the slides-en.html file in your browser to view the slides.
+* Read the Instructor notes ahead of time (open in your browser as well) and bring a print or digital copy on the day-of. (Use `ctrl + P` to print)
 
-3 Days to Go
-
-* Select a Code-Along activity from the Activity List
-* Practice going through the selected Code-Along and Work Session activities
-
-2 Days To Go
-
-* Update the slides (in a text editor, like <a href="https://atom.io/">atom.io</a>):
-    * Insert the network info (Slide 1)
-
-1 Day to Go
-
-* Print Lead Instructor Notes and <a href="https://docs.google.com/document/d/1jVa14X__A63sA6XsDhzXqRwbZszartYkQ_ARM8TedtU/edit?usp=sharing">STEPS Solution Sheets</a> to bring to the workshop.
-
-## During the Workshop
-* Have Notes accessible throughout the workshop, follow along in the Notes for support.
-* Use the slides to support the Kick-Off and Introduction.
-
-## After the Workshop
-* Give yourself a pat on the back - You did it!
--->
 
 # ATTRIBUTIONS:
 
