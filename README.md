@@ -1,6 +1,4 @@
-[NOT YET AVAILABLE TO CHAPTERS]
-
-# Girls Learning Code Day: Entrepreneurship and Webmaking
+# National Girls Learning Code Day: Entrepreneurship and Webmaking
 
 ## Quick Links
 
