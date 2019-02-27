@@ -1,6 +1,6 @@
 [NOT YET AVAILABLE TO CHAPTERS]
 
-# Girls Learning Code Day: Intro to Entrepreneurship and Webmaking
+# Girls Learning Code Day: Entrepreneurship and Webmaking
 
 ## Quick Links
 
@@ -18,7 +18,7 @@ Preview Slides: <a href="https://ladieslearningcode.github.io/glc-entrepreneursh
 
 # ATTRIBUTIONS:
 
-Content created by Kassandra Lenters for [Canada Learning Code](http://canadalearningcode.ca/), with contributions from Kat Barrett.
+Content created by Kassandra Lenters for [Canada Learning Code](http://canadalearningcode.ca/), with contributions from Kat Barrett and Eden Beronio.
 
 [Slide presentation](https://github.com/ladieslearningcode/llc-slidedeck-template) created by [Christina Truong](http://christinatruong.com/) for [Canada Learning Code](http://canadalearningcode.ca/).
 
