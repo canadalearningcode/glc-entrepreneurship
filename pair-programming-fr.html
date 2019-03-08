@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>Filles en programmation</title>
+  <link rel="stylesheet" href="framework/css/slideshow.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/fonts.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/highlightjs/github.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/styles.css" data-noprefix>
+  <link rel="shortcut icon" href="framework/img/favicon.ico">
+
+  <!-- S'occupe des préfixes CSS3 -->
+  <script src="framework/scripts/prefixfree.min.js"></script>
+
+  <!-- Ouvre tous les liens dans une nouvelle fenêtre -->
+  <base target="_blank">
+</head>
+
+<!-- Barre de progression/durée : définissez la durée de la présentation en minutes avec « data-duration ». -->
+<body class="en" data-duration="40">
+
+  <main>
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Programmation à deux
+
+        ## Nous travaillerons à deux sur le même ordinateur.
+
+        <strong>Conductrice</strong> : utilise la souris/le pavé tactile, clique et tape <br>
+        <strong>Navigatrice</strong> : pointe l'écran et donne des consignes à l'oral
+
+        * Pourquoi programmer à deux?<!-- .element: class="delayed" -->
+
+        ![Corgis qui court](framework/img/workshop/corgis.gif)
+
+          ---
+        <div class="dropdown">
+          <button class="dropbtn">Sources</button>
+          <div class="dropdown-content">
+            <a href="https://giphy.com/gifs/VFDeGtRSHswfe">gif, chiens qui courent</a>
+          </div>
+
+      </script>
+    </section>
+  </main><!-- Section principale cls -->
+
+  <script src="framework/scripts/jquery-1.11.0.min.js"></script>
+  <script src="framework/scripts/slideshow.js"></script>
+
+  <!-- Enlevez les commentaires des modules dont vous avez besoin -->
+  <script src="framework/scripts/plugins/css-edit.js"></script>
+  <script src="framework/scripts/plugins/css-snippets.js"></script>
+  <script src="framework/scripts/plugins/css-controls.js"></script>
+  <!-- <script src="plugins/code-highlight.js"></script>-->
+
+  <script src="framework/scripts/plugins/markdown/marked.js"></script>
+  <script src="framework/scripts/plugins/markdown/markdown.js"></script>
+  <script src="framework/scripts/plugins/highlight/highlight-8.4.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <script src="framework/scripts/llc.js"></script>
+  <script>
+    var slideshow = new SlideShow();
+
+    // Regroupe tous les éléments .snippet
+    var snippets = document.querySelectorAll('.snippet');
+    for(var i=0; i<snippets.length; i++) {
+      new CSSSnippet(snippets[i]);
+    }
+  </script>
+</body>
+</html>

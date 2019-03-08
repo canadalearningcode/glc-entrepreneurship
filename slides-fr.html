@@ -1,0 +1,1051 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>Filles en programmation</title>
+  <link rel="stylesheet" href="framework/css/slideshow.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/fonts.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/highlightjs/github.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/styles.css" data-noprefix>
+  <link rel="shortcut icon" href="framework/img/favicon.ico">
+
+  <!-- S'occupe des préfixes CSS3 -->
+  <script src="framework/scripts/prefixfree.min.js"></script>
+
+  <!-- Ouvre tous les liens dans une nouvelle fenêtre -->
+  <base target="_blank">
+</head>
+
+<!-- Barre de progression/durée : définissez la durée de la présentation en minutes avec « data-duration ». -->
+<body class="en" data-duration="40">
+
+  <main>
+    <!--Diapositive n° 1-->
+    <section class="slide welcome highlight">
+      <h1><img class="logo-stacked" src="framework/img/glc-logo-stacked-white.png" alt="Filles en programmation logo">Bienvenue!</h1>
+
+      <div class="instructions">
+        <!-- AJOUTEZ LES INFOS DU WI-FI ICI -->
+        <h2>Connectez-<br>vous</h2>
+        <p><strong>Wi-Fi :</strong> nom du réseau</p>
+        <p><strong>Mot de passe :</strong> mot de passe</p>
+        <hr>
+
+        <h2>Travaillez-vous <br>hors ligne? <br>(sans Internet)</h2>
+        <p><strong>Si l'Internet ne fonctionne pas :</strong></p>
+        <p>Éditeur Atom : <a href="http://atom.io">http://atom.io</a></p>
+        <p>Parlez de la <a href="pair-programming-fr.html">programmation à deux</a></p>
+
+      </div>
+      <footer>
+        <a class="left" rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Licence Creative Commons" src="framework/img/cc-by-nc.png" /></a>
+        <p class="left">Contenu créé par Kassandra Lenters pour <a prefix="cc: http://creativecommons.org/ns#" href="http://canadalearningcode.ca" property="cc:attributionName" rel="cc:attributionURL">Canada en programmation.</a></p>
+        <p class="right">Utilisez les flèches gauche <span class="arrow">&#8592;</span> et droite <span class="arrow">&#8594;</span> pour naviguer.</p>
+      </footer>
+    </section>
+
+    <!--Diapositive n° 2-->
+    <section class="slide intro">
+      <img class="logo" src="framework/img/glc-logo-white.png" alt="logo de Femmes en programmation">
+      <h1 class="heading-bg">
+        <span>Entreprenariat <br> et création Web</span>
+      </h1>
+
+      <!-- <img class="instructor" src="http://placehold.it/225x225" alt="Nom de la formatrice"> -->
+      <!--<h2><span class="cursive">avec</span>Filles en programmation</h2>-->
+      <ul>
+        <li><a href="http://twitter.com/learningcode">@learningcode</a></li>
+        <li><a href="https://twitter.com/search?q=%23glccodeday&src=typd">#glccodeday</a></li>
+      </ul>
+
+      <div class="sponsor">
+        <p>En partenariat avec<br> <img src="framework/img/scotia-logo-white.png" alt="Scotiabank"> <img src="framework/img/sunlife-logo-white.png" alt="Sunlife"></p>
+      </div>
+      <footer>
+        <a class="left" rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Licence Creative Commons" src="framework/img/cc-by-nc.png" /></a>
+        <p class="left">Diapositives créées par <a href="http://christinatruong.com">Christina Truong</a> pour <a prefix="cc: http://creativecommons.org/ns#" href="http://ladieslearningcode.com" property="cc:attributionName" rel="cc:attributionURL">Femmes en programmation.</a></p>
+        <p class="right">Utilisez les flèches gauche <span class="arrow">&#8592;</span> et droite <span class="arrow">&#8594;</span> pour naviguer</p>
+      </footer>
+    </section>
+
+    <!--Diapositive n° 3-->
+    <section class="slide title" data-markdown>
+      <script type="text/template">
+        #Introduction
+      </script>
+    </section>
+
+    <!--Diapositive n° 4-->
+    <section class="slide" data-markdown data-toc>
+      <script type="text/template">
+      #Ordre du jour
+
+      Trouver une idée d'entreprise
+
+      Intro au HTML
+
+      Développer un site Web
+
+      Intro au CSS
+
+      Changer le style de notre site Web
+
+      PRÉSENTATIONS
+
+      </script>
+    </section>
+
+    <!--Diapositive n° 5-->
+    <section class="slide centered" data-markdown>
+      <script type="text/template">
+       ![Bannière Code des programmeuses](framework/img/workshop/scroll.png)
+       <br>
+       **LE CODE DES PROGRAMMEUSES**
+         ## 1. DEMANDEZ DE L'AIDE  <!-- .element: class="delayed" -->
+         ## 2. SOYEZ PRÉSENTES  <!-- .element: class="delayed" -->
+         ## 3. FAITES DE VOTRE MIEUX!  <!-- .element: class="delayed" -->
+      </script>
+    </section>
+
+    <!--Diapositive n° 6-->
+    <section class="slide title" data-toc data-markdown>
+     <script type="text/template">
+       # Qu'est-ce que le code?
+     </script>
+    </section>
+
+    <!--Diapositive n° 7-->
+    <section class="slide" data-markdown>
+     <script type= "text/template">
+       #Le code, c'est...
+       ## UN ENSEMBLE DE DIRECTIVES DISANT À L'ORDINATEUR QUOI FAIRE.
+
+       <br>
+       ![gif, robot qui court](framework/img/workshop/runningrobot.gif)
+       ![gif, robot qui danse](framework/img/workshop/dancingrobot.gif)
+       ![gif, robot qui mange](framework/img/workshop/eatingrobot.gif)
+       ![gif, robot qui danse](framework/img/workshop/dancingrobot2.gif)
+       ![gif, robot qui danse](framework/img/workshop/bluerobot.gif)
+       ![gif, robot qui danse](framework/img/workshop/partyrobot.gif)
+
+       <p> En programmation, un ensemble de directives s'appelle un <strong style="color:#763dff;">algorithme</strong>.</p><!-- .element: class="delayed" -->
+
+     </script>
+    </section>
+
+    <!--Diapositive n° 8-->
+    <section class="slide title" data-markdown>
+      <script type="text/template">
+        ## Un entrepreneur est quelqu'un qui crée une entreprise.
+      </script>
+    </section>
+
+    <!--Diapositive n° 9-->
+    <section class="slide title" data-markdown>
+      <script type="text/template">
+        # Quelles sont les qualités d'un entrepreneur?
+        ## Pensez à un ou deux mots pour décrire un entrepreneur.
+      </script>
+    </section>
+
+    <!--Diapositive n° 10-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        # Les entrepreneurs...
+
+        * sont bons pour résoudre des problèmes. Ils cherchent toujours des façons d'aider les autres.<!-- .element: class="delayed" -->
+        * sont créatifs et innovateurs. Ils trouvent des solutions originales.<!-- .element: class="delayed" -->
+        * sont optimistes. Ils sont positifs et ont confiance.<!-- .element: class="delayed" -->
+        * ont le sens de l'initiative. Quand ils voient quelque chose, ils sautent sur l'occasion.<!-- .element: class="delayed" -->
+        * prennent des risques. Ils essaient de nouvelles choses et n'ont pas peur de faire des erreurs, même s'ils ne réussissent pas toujours.<!-- .element: class="delayed" -->
+
+      </script>
+    </section>
+
+    <!--Diapositive n° 11-->
+    <section class="slide title" data-markdown>
+      <script type="text/template">
+        ## Aujourd'hui, nous travaillerons en équipe pour résoudre un problème...
+
+        ## et créerons un site Web pour partager nos idées d'entreprise en démarrage.
+
+      </script>
+    </section>
+
+    <!--Diapositive n° 12-->
+    <section class="slide title" data-markdown>
+      <script type="text/template">
+        # Qu'est-ce qu'une entreprise en démarrage?
+            </script>
+    </section>
+
+    <!--Diapositive n° 13-->
+    <section class="slide title" data-markdown>
+      <script type="text/template">
+        ## Une entreprise en démarrage est une toute nouvelle entreprise!
+      </script>
+    </section>
+
+    <!--Diapositive n° 14-->
+    <section class="slide two-col-list" data-markdown>
+      <script type="text/template">
+        # Exemples
+
+        * The Love Sandal<br>
+          ![Abi](framework/img/workshop/abi.png)
+          * Fondatrice : Abi Smithson
+          * Des sandales mode qui créent des lignes de bronzage en forme de coeur.
+        * Programme Young Hunters<br>
+          ![Kukik](framework/img/workshop/kukik.png)
+          * Fondatrice : Kukik Baker
+          * Un programme communautaire qui enseigne des techniques de chasse aux jeunes d'Arviat au Nunavut.<br>
+
+
+          <div class="dropdown">
+            <button class="dropbtn">Sources</button>
+            <div class="dropdown-content">
+              <a href="https://www.facebook.com/thelovesandal/">Photo d'Abi</a>
+              <a href="https://www.youtube.com/watch?v=8D_1sxPDMpc">Kukik, dans la vidéo de Young Hunters par le Arviat Wellness Centre</a>
+            </div>
+
+      </script>
+    </section>
+
+    <!--Diapositive n° 15-->
+    <section class="slide two-col-list" data-markdown>
+      <script type="text/template">
+        # Exemples
+
+        * StopGap<br>
+          ![Luke](framework/img/workshop/luke.jpg)
+          * Fondateurs : Luke Anderson (ci-dessus) et Michael Hopkins
+          * Projet communautaire de rampes personnalisées pour les devantures de magasins fabriquées avec des matériaux donnés.
+        * myCryptoHippo<br>
+          ![Mathurah](framework/img/workshop/mycryptohippo.jpg)
+          * Fondateurs : Mathurah <br>
+          et l'équipe du programme Junior Achievement Central Ontario Company
+          * Un jeu de simulation pour découvrir les cryptomonnaies.<br>
+
+
+          <div class="dropdown">
+            <button class="dropbtn">Sources</button>
+            <div class="dropdown-content">
+              <a href="http://stopgap.ca/who-we-are/our-founder/">Photo de Luke tirée de StopGap.ca</a>
+              <a href="https://www.facebook.com/mycryptohippo/">Photo de Mathurah</a>
+            </div>
+
+      </script>
+    </section>
+
+    <!--Diapositive n° 16-->
+    <section class="slide title" data-markdown>
+      <script type="text/template">
+        #À votre tour!
+        ##Formez des équipes de quatre ou de cinq personnes à vos tables
+      </script>
+    </section>
+
+    <!--Diapositive n° 17-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        # Remue-méninges
+
+        En équipe, répondez à ces questions :
+
+        * Qu'est-ce qui est important, selon vous?
+        * Quels sont les problèmes que vous voyez autour de vous ou dans les nouvelles?
+        * **Y a-t-il un problème que vous souhaitez régler?**
+        * S'il y en a un, comment le régler et améliorer la situation?
+
+        Écrivez vos idées sur un carton et faites des flèches entre les idées qui sont liées.
+
+        Vous avez `5 minutes`. Ensuite, encerclez la meilleure idée de votre équipe.
+
+
+      </script>
+    </section>
+
+    <!--Diapositive n° 18-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        # Remue-méninges
+
+        Si vous avez de la difficulté à trouver des idées, voici quelques exemples pour vous faire réfléchir :
+
+        * Comment encourager les gens à manger de la nourriture qui est bonne pour la santé?
+        * Comment prévenir l'intimidation?
+        * Comment encourager les gens à recycler?
+        * Comment protéger les espèces en danger?
+        * Comment garder notre bureau propre?
+
+      </script>
+    </section>
+
+    <!--Diapositive n° 19-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Commençons
+
+        En équipe, choisissez le **nom** de votre entreprise.
+
+        *Extra :* créez un slogan (une phrase amusante et mémorable qui décrit l'entreprise).
+
+        Vous avez `5 minutes`.
+
+      </script>
+    </section>
+
+    <!--Diapositive n° 20-->
+    <section class="slide title" data-markdown>
+      <script type="text/template">
+        # Partagez vos idées avec le groupe
+      </script>
+    </section>
+
+    <!--Diapositive n° 21-->
+    <section class="slide title" data-markdown>
+      <script type="text/template">
+        # Nous créerons un site Web pour partager nos idées d'entreprise
+        ## Pourquoi créer des sites Web?
+      </script>
+    </section>
+
+    <!--Diapositive n° 22-->
+    <section class="slide" data-markdown data-toc>
+      <script type="text/template">
+        #Comment fabrique-t-on un site Web?
+        1. En le dessinant sur une feuille et en prenant une photo <!-- .element: class="delayed" -->
+        1. En utilisant un programme de texte comme Microsoft Word <!-- .element: class="delayed" -->
+        1. En criant des choses à l'ordinateur jusqu'à ce qu'il fabrique un site Web <!-- .element: class="delayed" -->
+        1. En écrivant du code <!-- .element: class="delayed" -->
+
+        ![https://www.flickr.com/photos/baldiri/5734993652](framework/img/workshop/wireframe.jpg)
+        ![https://www.flickr.com/photos/ivanwalsh/4457223020](framework/img/workshop/worddoc.jpg)
+        ![https://pixabay.com/en/social-social-networks-1206614/](framework/img/workshop/angry.jpg)
+        ![https://pixabay.com/en/code-programming-hacking-html-web-820275/](framework/img/workshop/code.jpg)
+
+        <div class="dropdown">
+                  <button class="dropbtn">Sources</button>
+                  <div class="dropdown-content">
+                    <a href="https://www.flickr.com/photos/baldiri/5734993652">Photo de maquette</a>
+                    <a href= "https://www.flickr.com/photos/ivanwalsh/4457223020">Photo de Microsoft Word</a>
+                    <a href= "https://pixabay.com/en/social-social-networks-1206614/">Illustration de réseaux sociaux</a>
+                    <a href="https://pixabay.com/en/code-programming-hacking-html-web-820275/">Photo de code</a>
+                  </div>
+
+      </script>
+    </section>
+
+    <!--Diapositive n° 23-->
+    <section class="slide title" data-markdown>
+      <script type="text/template">
+        # Les sites Web sont créés avec du code!
+      </script>
+    </section>
+
+    <!--Diapositive n° 24-->
+    <section class="slide  two-col-list" data-markdown>
+      <script type="text/template">
+        #HTML
+        * À propos des navigateurs...
+          * Nous utilisons les navigateurs pour afficher des sites Web.
+          * Les navigateurs ne parlent ni français ni anglais.
+          * Par contre, ils parlent le HTML!
+        * ![https://giphy.com/gifs/cat-internet-bounce-f09WzpLun6axq](framework/img/workshop/pusheeninternet.gif)
+
+        <div class="dropdown">
+                  <button class="dropbtn">Sources</button>
+                  <div class="dropdown-content">
+                    <a href="https://giphy.com/gifs/cat-internet-bounce-f09WzpLun6axq">gif, Pusheen</a>
+                  </div>
+      </script>
+    </section>
+
+    <!--Diapositive n° 25-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #HTML
+        * L'abréviation de « HyperText Markup Language » (langage de balisage hypertexte).
+        * Le HTML dit au navigateur à quoi ressemble le site Web et quel est le contenu à afficher.
+
+        ![https://www.pexels.com/photo/startup-planning-notes-mac-book-7357/](framework/img/workshop/laptop.jpg)
+
+        <div class="dropdown">
+                  <button class="dropbtn">Sources</button>
+                  <div class="dropdown-content">
+                    <a href="https://www.pexels.com/photo/startup-planning-notes-mac-book-7357/">Photo d'ordinateur portable</a>
+                  </div>
+    </script>
+    </section>
+
+    <!--Diapositive n° 26-->
+    <section class="slide title" data-markdown>
+      <script type="text/template">
+        # À quoi ressemble le HTML?
+      </script>
+    </section>
+
+    <!--Diapositive n° 27-->
+    <section class="slide" data-markdown data-toc>
+      <script type="text/template">
+        # Élements
+
+        Le HTML comprend des éléments (les parties du site Web) créés avec des balises.
+        ```html
+        <p> Ceci est un paragraphe de texte. </p>
+        ```
+        ```html
+        <p> = balise d'ouverture
+        </p> = balise de fermeture
+        ```
+        ![balises en mouvement](framework/img/workshop/tag2.gif) <!-- .element: class="delayed" -->
+      </script>
+    </section>
+
+    <!--Diapositive n° 28-->
+    <section class="slide centered" data-markdown>
+      <script type="text/template">
+        #Les balises HTML utilisent les caractères **<**  **>**  ET **/**
+
+        ![Touches pour le HTML](framework/img/workshop/keyboard-html_fr.jpg)
+      </script>
+    </section>
+
+    <!--Diapositive n° 29-->
+    <section class="slide two-col-list" data-markdown>
+      <script type="text/template">
+        #Les balises viennent toujours en paires
+        * Paire (deux balises)
+          ```html
+          <p>Ceci est un paragraphe.</p>
+          ```
+          ![https://commons.wikimedia.org/wiki/File:PEO-smiling_cat_face_with_open_mouth.svg](framework/img/workshop/cathappy.png)
+        * Sans paire (une balise)
+          ```html
+          <p>Ceci est un paragraphe.
+          ```
+          ![https://commons.wikimedia.org/wiki/File:PEO-crying_cat_face.svg](framework/img/workshop/catsad.png)
+
+
+          <div class="dropdown">
+                    <button class="dropbtn">Sources</button>
+                    <div class="dropdown-content">
+                      <a href="https://commons.wikimedia.org/wiki/File:PEO-smiling_cat_face_with_open_mouth.svg">Emoji, chat heureux</a>
+                      <a href="https://commons.wikimedia.org/wiki/File:PEO-crying_cat_face.svg">Emoji, chat triste</a>
+                    </div>
+      </script>
+    </section>
+
+    <!--Diapositive n° 30-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Paires parfaites
+        Quelle est la balise qui complète ```<p>```?
+
+        1. ```<p>``` <!-- .element: class="delayed" -->
+        1. ```</b>``` <!-- .element: class="delayed" -->
+        1. ```</p>``` <!-- .element: class="delayed" -->
+        1. ```</>``` <!-- .element: class="delayed" -->
+
+        ```<p> forme une paire parfaite avec </p>!``` <!-- .element: class="delayed" -->
+      </script>
+    </section>
+
+    <!--Diapositive n° 31-->
+    <section class="slide two-col-list" data-markdown data-toc>
+      <script type="text/template">
+        * Balises importantes
+            ```html
+            <html>
+              <head>
+              </head>
+              <body>
+              </body>
+            </html>
+            ```
+        * <br>
+          ![fille](framework/img/workshop/paperdoll.png)
+
+  </script>
+  </section>
+
+    <!--Diapositive n° 32-->
+      <section class="slide two-col-list" data-markdown>
+        <script type="text/template">
+          * Balises importantes
+              ```html
+              <html>
+                <head>
+                  <title>MEOWly</title>
+                </head>
+                <body>
+                  <h1>MEOWly</h1>
+                  <p>all about cats</p>
+                </body>
+              </html>
+              ```
+          * <br>
+            ![fille](framework/img/workshop/paperdoll2.png)
+
+    </script>
+    </section>
+
+    <!--Diapositive n° 33-->
+    <section class="slide title" data-toc data-markdown>
+      <script type="text/template">
+        # Programmation en groupe
+      </script>
+    </section>
+
+    <!--Diapositive n° 34-->
+    <section class="slide" data-toc data-markdown>
+      <script type="text/template">
+        # Créer un compte
+
+        Allez sur le site https://glitch.com. Créez un compte et connectez-vous avec votre adresse courriel (« Sign in with email »). Vous devez aller dans votre boîte de réception et cliquer sur le bouton pour vous connecter.
+
+        ![Connexion avec l'adresse courriel](framework/img/workshop/glitch-signin-with-email.png)
+        ![Courriel de vérification](framework/img/workshop/glitch-verification.png)
+
+        <hr>
+
+        ###Option hors ligne : ouvrez l'éditeur Atom et ajoutez un dossier de projet dans l'éditeur
+        ![Nouveau dossier de projet](framework/img/workshop/atom-add-project.jpg)
+        ![Aperçu des fichiers du projet de départ](framework/img/workshop/atom-starter.png)
+
+
+      </script>
+    </section>
+
+    <!--Diapositive n° 35-->
+    <section class="slide two-col-list" data-toc data-markdown>
+      <script type="text/template">
+        # Collaborer dans Glitch
+
+        **Paire n° 1 :**
+
+        1.  Créez un nouveau projet. <br> ![Sélectionnez New Project, puis Hello-Webpage](framework/img/workshop/new-project.png)
+        1.  Changez le nom du projet. <br> ![Rename](framework/img/workshop/rename.png)
+
+        <hr>
+
+        ###Option hors ligne : sautez cette diapositive.
+
+      </script>
+    </section>
+
+    <!--Diapositive n° 36-->
+    <section class="slide two-col-list" data-toc data-markdown>
+      <script type="text/template">
+        # Collaborer dans Glitch
+
+        **Paire n° 2 :**
+
+        1. Allez sur le site Web de l'équipe : `glitch.com/~nom-du-site`.
+        1. Sélectionnez **Edit project** pour modifier le projet.
+        1. Demandez à rejoindre le projet : <br> ![Rejoindre le projet (join)](framework/img/workshop/join.png).
+
+        **Paire n° 1 :**
+
+        1. Ajoutez les membres de votre équipe.<br>
+          ![Cliquez sur la bulle Can I Join?](framework/img/workshop/invite1.png)
+          ![Cliquez sur Invite to Edit](framework/img/workshop/invite2.png)
+
+        **Ne changez pas le nom de index.html, car ce fichier est notre page d'accueil.**
+
+
+        <hr>
+
+        ###Option hors ligne : sautez cette diapositive.
+
+      </script>
+    </section>
+
+    <!--Diapositive n° 37-->
+    <section class="slide" data-toc data-markdown>
+      <script type="text/template">
+        # Dites 'Salut' à l'équipe
+
+        Essayez-le! Ouvrez **index.html** et tapez un message pour les membres de votre équipe.
+
+        ![Configurer Glitch](framework/img/workshop/secret-msg.png)
+
+        <hr>
+
+        ###Option hors ligne : sautez cette diapositive.
+
+      </script>
+    </section>
+
+    <!--Diapositive n° 38-->
+    <section class="slide" data-toc data-markdown>
+      <script type="text/template">
+        # Configurer Glitch
+
+        1. Sélectionnez **Wrap Text** pour faciliter la lecture du code.
+        1. Pour voir les changements en travaillant, sélectionnez **Show Live** et placez les pages comme dans l'image ci-dessous.
+
+        ![Configurer Glitch](framework/img/workshop/window-setup.png)
+
+        <hr>
+
+        ###Option hors ligne : montrez index.html dans le gestionnaire de fichiers.
+        ###Ouvrez index.html dans le navigateur (double-cliquez sur le fichier).
+        ![Faites un clic droit sur le fichier et montrez-le dans le gestionnaire de fichiers.](framework/img/workshop/show.png)
+
+
+      </script>
+    </section>
+
+    <!--Diapositive n° 39-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Étape n° 1 : Écrivez les informations sur votre site Web.
+        * Titre (title) : quel est le nom du site?
+        * En-tête (header) : quel est le sujet du site?
+        * Paragraphe (paragraph) : écrivez une petite description.
+
+        ![https://www.pexels.com/photo/woman-desk-macbook-pro-pen-68761/](framework/img/workshop/working.jpeg)
+
+        <div class="dropdown">
+                  <button class="dropbtn">Sources</button>
+                  <div class="dropdown-content">
+                    <a href="https://www.pexels.com/photo/woman-desk-macbook-pro-pen-68761/">Photo, programmeur</a>
+                  </div>
+      </script>
+    </section>
+
+    <!--Diapositive n° 40-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Étape n° 2 : Ajouter une image (première partie)
+        1. Téléchargez une image de Google (clic-droit, Enregistrer sous). <br> *Trouvez une image qui peut être utilisée sous licence Creative Commons en sélectionnant Outils > Droits d'usage > Réutilisation autorisée. Vous pouvez aussi aller sur le site [pexels.com](https://www.pexels.com/)*.
+        1. Dans Glitch, allez dans l'onglet « assets » et téléversez (upload) le fichier.
+        1. Cliquez sur l'image, puis sur « copy url » pour l'ajouter sur le site Web.
+
+        ![Sélectionnez « assets », puis téléversez les fichiers à partir de l'ordinateur.](framework/img/workshop/upload-asset.png)
+        ![Copiez l'URL de l'image](framework/img/workshop/copy-url.png)
+
+        <hr>
+
+        ###Option hors ligne : choisissez une image du dossier assets.
+        ![Ouvrez le dossier assets pour voir les images](framework/img/workshop/assets.png)
+
+      </script>
+    </section>
+
+    <!--Diapositive n° 41-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Étape n° 2 : Ajouter une image (deuxième partie)
+        1. Dans le fichier html, créez une nouvelle balise d'image (voir ci-dessous).
+        1. Ajoutez un attribut alt qui décrit l'image. <br> *Cela rendra votre site plus accessible aux gens ayant une déficience visuelle, par exemple.*
+
+        ```html
+        <img alt="Image d'une fusée dans l'espace" src="lien-copié.png"/>
+        ```
+        <br><br><br><br>
+
+        <hr>
+
+        ###Option hors ligne : Mettez à jour la source de l'image (kids.jpeg).
+        ###Mettez à jour la description alternative (alt).
+
+        ```html
+        <img alt="Trois enfants qui sourient" src="assets/kids.jpeg" />
+        ```
+
+      </script>
+    </section>
+
+    <!--Diapositive n° 42-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Étape n° 3 : Créer le site Web
+        ##Décidez qui fera chaque partie du site :
+
+        * Le slogan
+        * Le problème à résoudre
+        * La description du produit ou de la solution
+        * Les raisons pour lesquelles votre idée est originale
+        * La description de l'équipe *(n'écrivez pas vos noms de famille ou des informations personnelles)*
+        * Les images (beaucoup!)
+        * Les façons de soutenir l'idée ou de s'engager dans le projet
+        * Les liens vers des ressources
+
+        **Regardez la page de référence pour le HTML pour obtenir plus d'idées : [w3schools.com/tags](https://www.w3schools.com/tags).**
+
+      </script>
+    </section>
+
+    <!--Diapositive n° 43-->
+    <section class="slide title" data-markdown>
+      <script type="text/template">
+        #Embellissons notre site!
+      </script>
+    </section>
+
+    <!--Diapositive n° 44-->
+    <section class="slide" data-markdown data-toc>
+      <script type="text/template">
+        #CSS
+        * « CSS » est l'abréviation de « Cascading Style Sheets » (feuilles de style en cascade).
+        * Comme le HTML, le CSS sert à communiquer avec le navigateur.
+        * Il embellit le HTML!
+
+        ![https://giphy.com/gifs/celebrate-halloween-6QyyP2Qy4EfBe](framework/img/workshop/pusheenunicorn.gif)
+
+        <div class="dropdown">
+                  <button class="dropbtn">Sources</button>
+                  <div class="dropdown-content">
+                    <a href="https://giphy.com/gifs/celebrate-halloween-6QyyP2Qy4EfBe">gif, Pusheen</a>
+                  </div>
+      </script>
+    </section>
+
+    <!--Diapositive n° 45-->
+    <section class="slide two-col-list" data-markdown>
+      <script type="text/template">
+        #Quelles sont les différences?
+        * Le HTML
+          * Utilisé pour le contenu
+            <h3>En-têtes</h3>
+            Paragraphes<br>
+            ![Images](framework/img/workshop/images.png)<br>
+            <a href="http://css.cool">Liens</a><br>
+            * Listes (comme ça!)
+        * Le CSS
+          * Utilisé pour le style
+            <div style="color: Turquoise;">Couleurs</div>
+            <div style="font-family: Impact, Charcoal, sans-serif !important;">Polices de texte</div>
+            <div style="background-color: Gold;">Arrière-plans</div>
+            <div style="border: 5px solid plum;">Bordures</div>
+            <div style="font-size: 72px;">Tailles</div>
+      </script>
+    </section>
+
+    <!--Diapositive n° 46-->
+    <section class="slide two-col-list" data-markdown>
+      <script type="text/template">
+        #Quelle est la différence?
+        * Le HTML sans CSS <br><!-- .element: class="delayed" -->
+        ![site Web sans css](framework/img/workshop/glcnocss.jpg)<!-- .element: class="delayed" -->
+        * Le HTML avec CSS <br><!-- .element: class="delayed" -->
+          ![site Web avec css](framework/img/workshop/glcwithcss.jpg)<!-- .element: class="delayed" -->
+      </script>
+    </section>
+
+    <!--Diapositive n° 47-->
+    <section class="slide title" data-markdown data-toc>
+      <script type="text/template">
+        #De quoi a l'air le CSS?
+      </script>
+    </section>
+
+    <!--Diapositive n° 48-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Exemple
+        ##Le CSS
+        ```css
+        p {
+          color:red;
+        }
+        ```
+
+        ##Quelles sont les différences avec le HTML?
+        ```html
+        <p> Ceci est un paragraphe. </p>
+        ```
+      </script>
+    </section>
+
+    <!--Diapositive n° 49-->
+    <section class="slide centered" data-markdown>
+      <script type="text/template">
+        #Le CSS utilise les caractères **{**  **}**  ,  **;** ET  **:**
+
+        ![Touches utilisées en CSS](framework/img/workshop/keyboard-css_fr.jpg)
+      </script>
+    </section>
+
+    <!--Diapositive n° 50-->
+    <section class="slide" data-markdown data-toc>
+      <script type="text/template">
+        #Règles
+        * Le CSS est composé de règles.
+        * Le CSS cible des parties précises du site Web et disent à quoi elles ressemblent.
+        * Les règles peuvent être génériques ou spécifiques.
+
+        ![https://giphy.com/gifs/love-cat-dance-aydEd3UIYy0dG](framework/img/workshop/pusheendance.gif)
+
+        <div class="dropdown">
+                  <button class="dropbtn">Sources</button>
+                  <div class="dropdown-content">
+                    <a href="https://giphy.com/gifs/love-cat-dance-aydEd3UIYy0dG">gif, Pusheen</a>
+                  </div>
+      </script>
+    </section>
+
+    <!--Diapositive n° 51-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #CSS
+        ```css
+        p {
+          color:red;
+        }
+        ```
+
+        Si les humains étaient des éléments...<!-- .element: class="delayed" -->
+
+        ```css
+        humain {
+          corps: debout;
+          langue: sortie;
+        }
+        ```
+        <!-- .element: class="delayed" -->
+
+        ```css
+        humain.mentor {
+          mains: danslesairs;
+        }
+        ```
+        <!-- .element: class="delayed" -->
+      </script>
+    </section>
+
+    <!--Diapositive n° 52-->
+    <section class="slide" data-markdown data-toc>
+      <script type="text/template">
+        #Où va le CSS?
+
+        Le CSS va dans la page style.css.
+
+        ![Onglet CSS dans le projet](framework/img/workshop/style-tab.png)
+
+        <hr>
+
+        ###Option hors ligne : double-cliquez sur **style.css** dans Atom pour ouvrir la feuille de style.
+
+      </script>
+    </section>
+
+    <!--Diapositive n° 53-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Du style à l'infini
+        ##Allez sur le site [css.cool](css.cool).
+
+        ![Capture d'écran, css.cool](framework/img/workshop/csscool.jpg)
+
+        <hr>
+
+        ###Option hors ligne : sautez cette diapositive.
+
+      </script>
+    </section>
+
+    <!--Diapositive n° 54-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Étape n° 1 : Changer la couleur
+
+        ```css
+        p {
+          color: DeepPink;
+        }
+        ```
+        ![Capture d'écran, css.cool](framework/img/workshop/csscoolcol.jpg)
+
+      </script>
+    </section>
+
+    <!--Diapositive n° 55-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Étape n° 2 : Changer la police du texte
+        ```css
+        h1 {
+          font-family: Verdana, Geneva, sans-serif;
+          font-size: 18px;
+        }
+        ```
+        ![Capture d'écran, css.cool](framework/img/workshop/csscoolfont.jpg)
+
+      </script>
+    </section>
+
+    <!--Diapositive n° 56-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Étape n° 3 : Changer l'arrière-plan
+
+        ```css
+        body {
+          background-color: Turquoise;
+        }
+        ```
+        OU
+        ```css
+        body {
+          background-image: url("image.jpeg");
+        }
+        ```
+
+      </script>
+    </section>
+
+    <!--Diapositive n° 57-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Étape n° 4 : Changer la taille de l'image
+        ```css
+        img {
+          width: 500px;
+        }
+        ```
+        Un pixel (**px**) est un point sur l'écran. « width » veut dire « largeur ».
+        <img id="test" alt="Ice cream cone" src="framework/img/workshop/icecream.jpg"/>
+
+        Essayez différentes tailles :
+        <textarea class="snippet" data-subject="#test">width: 500px;
+        </textarea>
+
+        <div class="dropdown">
+                  <button class="dropbtn">Sources</button>
+                  <div class="dropdown-content">
+                    <a href="https://www.pexels.com/photo/food-ice-cream-ice-cream-cone-8374/">Photo, crème glacée</a>
+                  </div>
+      </script>
+    </section>
+
+    <!--Diapositive n° 58-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Étape supplémentaire : Changer une image
+        ##Dans index.html :
+        Donnez un nom à l'étiquette de classe : ```class="petite"```
+        ```html
+        <img class=”petite” src=”image.jpeg”/>
+        ```
+
+        ##Dans style.css :
+        Ajoutez ce nom à une nouvelle règle CSS : ```img.petite```
+        ```css
+        img.petite {
+          width: 200px;
+        }
+        ```
+
+        **Vous pouvez utiliser ce code pour changer le style de n'importe quelle partie du site.**
+      </script>
+    </section>
+
+    <!--Diapositive n° 59-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Étape supplémentaire : Changer le style d'une image
+
+        ##Dans style.css :
+        ```css
+        img.petite {
+          border: 12px solid plum;
+          border-radius: 50%;
+        }
+        ```
+
+        <img style="border: 12px solid plum; border-radius: 50%;" alt="Cornet de crème glacée" src="framework/img/workshop/icecream.jpg"/>
+
+      </script>
+    </section>
+
+    <!--Diapositive n° 60-->
+    <section class="slide title" data-markdown>
+      <script type="text/template">
+        #PRÉSENTATIONS
+      </script>
+    </section>
+
+    <!--Diapositive n° 61-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Parties qui doivent être dans votre site
+
+        * Vos noms
+        * Le nom de entreprise
+        * Votre idée d'entreprise
+        * Le problème que vous essayez de régler
+        * Les raisons pour lesquelles votre entreprise est originale
+        * Votre slogan
+        * Ce que vous avez le plus aimé du projet
+
+        Vous avez `5 minutes` pour vous préparer en équipe.
+
+        Ensuite, vous avez deux minutes pour faire votre présentation. Tous les membres de l'équipe doivent avoir la chance de parler.
+
+      </script>
+    </section>
+
+    <!--Diapositive n° 62-->
+    <section class="slide" data-toc data-markdown>
+      <script type="text/template">
+        # Aujourd'hui, j'appris que...
+
+        <p><strong>Je peux</strong> mettre à profit mes compétences, mes forces et mes passions pour aider les autres.</p><!-- .element: class="delayed" -->
+        <p><strong>Je peux</strong> penser de manière novatrice en créant des solutions originales ou en prenant une solution qui existe déjà et en l'améliorant.</p><!-- .element: class="delayed" -->
+        <p><strong>Je peux</strong> ajouter du contenu à mon site Web avec le HTML.</p><!-- .element: class="delayed" -->
+        <p><strong>Je peux</strong> ajouter du style à mon site Web avec le CSS.</p><!-- .element: class="delayed" -->
+        <p><strong>Je peux</strong> utiliser des sites Web pour partager des informations avec d'autres personnes.</p><!-- .element: class="delayed" -->
+        <p><strong>Je peux</strong> utiliser Glitch pour CONTINUER À PROGRAMMER!</p><!-- .element: class="delayed" -->
+
+      </script>
+    </section>
+
+
+    <!-- Dernière diapositive -->
+    <section class="slide last">
+      <h1>Merci!</h1>
+      <h2 class="heading-bg">
+        <span>Entreprenariat<br>et création Web</span>
+      </h2>
+
+      <!-- <img class="instructor" src="http://placehold.it/225x225" alt="Nom de la formatrice"> -->
+      <!--<h2><span class="cursive">avec</span>Filles en programmation</h2>-->
+      <ul>
+        <li><a href="http://twitter.com/learningcode">@learningcode</a></li>
+        <li><a href="https://twitter.com/search?q=%23glccodeday&src=typd">#glccodeday</a></li>
+      </ul>
+
+      <p class="attribution">Diapositives créées par <a href="http://christinatruong.com">Christina Truong</a> à partir des diapositives de <a href="https://github.com/LeaVerou/csss">Lea Verou</a> avec <a href="http://lab.hakim.se/reveal-js/">reveal.js</a>.</p>
+    </section>
+
+  </main><!-- Section principale cls -->
+
+  <script src="framework/scripts/jquery-1.11.0.min.js"></script>
+  <script src="framework/scripts/slideshow.js"></script>
+
+  <!-- Enlevez les commentaires des modules dont vous avez besoin -->
+  <script src="framework/scripts/plugins/css-edit.js"></script>
+  <script src="framework/scripts/plugins/css-snippets.js"></script>
+  <script src="framework/scripts/plugins/css-controls.js"></script>
+  <!-- <script src="plugins/code-highlight.js"></script>-->
+
+  <script src="framework/scripts/plugins/markdown/marked.js"></script>
+  <script src="framework/scripts/plugins/markdown/markdown.js"></script>
+  <script src="framework/scripts/plugins/highlight/highlight-8.4.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <script src="framework/scripts/llc.js"></script>
+  <script>
+    var slideshow = new SlideShow();
+
+    // Regroupe tous les éléments .snippet
+    var snippets = document.querySelectorAll('.snippet');
+    for(var i=0; i<snippets.length; i++) {
+      new CSSSnippet(snippets[i]);
+    }
+  </script>
+</body>
+</html>
