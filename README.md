@@ -1,3 +1,5 @@
+## English:
+
 # National Girls Learning Code Day: Entrepreneurship and Webmaking
 
 ## Quick Links
@@ -34,58 +36,27 @@ Here’s an easy way to attribute content back to us - please include it whereve
 
 Our general Rule of Thumb is that it's okay to add examples if you feel it could provide more context for your community. However, we ask that instructors do not remove anything, as the content is designed with intention, whether that be meeting specific learning objectives, or maintaining our organization’s culture through the design.  Any suggestions for revisions or updates can be submitted in Github via issues and pull requests. If submitting an issue, please include the slide number(s) in the title.
 
-<!--
-## French:
 
-# Girls Learning Code: Créer des sites Web avec le HTML + CSS
+## Français :
 
-## Liens vers les ressources
+# Journée nationale Filles en programmation : entrepreneuriat et création Web
 
-Aperçu du Notes pour les enseignants : <a href="https://ladieslearningcode.github.io/glc-webmaking-with-html-css/notes-fr.html">ladieslearningcode.github.io/glc-webmaking-with-html-css/notes-fr.html</a>
+## LIENS RAPIDES :
 
-Aperçu des diapositives : <a href="https://ladieslearningcode.github.io/glc-webmaking-with-html-css/slides-fr.html">ladieslearningcode.github.io/glc-webmaking-with-html-css/slides-fr.html</a>
+Aperçu des notes de la formatrice : <a href="https://ladieslearningcode.github.io/glc-entrepreneurship/notes-fr.html">ladieslearningcode.github.io/glc-entrepreneurship/notes-fr.html</a>
 
-Liste d'activités : <a href="http://bit.ly/liste-d-activités-web">bit.ly/liste-d-activités-web</a>
+Aperçu des diapositives : <a href="https://ladieslearningcode.github.io/glc-entrepreneurship/slides-fr.html">ladieslearningcode.github.io/glc-entrepreneurship/slides-fr.html</a>
 
-## Ressources supplémentaires (facultatives)
-
-Activités hors ligne : <a href="http://bit.ly/activités-hors-ligne-doc">bit.ly/activités-hors-ligne-doc</a>
-
-Guide pour les enseignants (jeunesse) : <a href="http://bit.ly/guide-pour-les-enseignants-doc">bit.ly/guide-pour-les-enseignants-doc</a>
-
-
-# À FAIRE :
-## Avant l'atelier :
-1 semaine avant l'atelier
+# CONSIGNES :
 
 * Téléchargez ce dossier.
-* Lisez le Notes pour les enseignants pour avoir le contexte de l'atelier (ouvrez-le dans votre navigateur).
-
-3 jours avant l'atelier
-
-* Sélectionnez une activité de programmation en groupe dans la liste d'activités.
-* Exercez-vous en réalisant l'activité en groupe sélectionnée et en faisant des séances de programmation.
-
-2 jours avant l'atelier
-
-*	Mettez à jour les diapositives (dans un éditeur de texte comme  <a href="https://atom.io/">atom.io</a>):
-    * Indiquez les informations concernant le réseau (diapositive 1)
-
-La veille de l'atelier
-
-* Imprimez le Notes pour les enseignants et le <a href="https://docs.google.com/document/d/1hAby7_qutja8Ab6dCUbcRartzIXb-W3bKZqfVeL8fCo/edit?usp=sharing">corrigé avec les étapes</a> afin de les emmener à l'atelier.
-
-## Pendant l'atelier
-* Ayez le Notes pour les enseignants à votre portée et consultez-le au fur et à mesure pour vous aider.
-* Consultez les diapositives pour lire les notes de l’ouverture et de l’introduction.
-
-## Après l’atelier
-* Donnez-vous une petite tape dans le dos : vous avez réussi!
-
+* Mettez à jour les informations sur le réseau Wi-Fi dans la diapositive n° 1 (dans un éditeur de texte comme <a href="https://atom.io/">atom.io</a>).
+* Ouvrez le fichier slides-fr.html dans un navigateur pour afficher les diapositives.
+* Lisez les notes de la formatrice avant l'événement (ouvrez-les dans un navigateur) et ayez un exemplaire imprimé ou numérique à portée de main durant la journée. (utilisez le raccourci clavier `ctrl + P` pour imprimer les notes).
 
 # Sources
 
-Contenu créé par Kat Barrett, Kassandra Lenters, et Eden Beronio pour [Canada en programmation](http://canadalearningcode.ca/fr).
+Le  contenu a été créé par Kassandra Lenters pour [Canada en programmation](http://canadalearningcode.ca/) en collaboration avec Kat Barrett et Eden Beronio.
 
 [Diapositives](https://github.com/ladieslearningcode/llc-slidedeck-template) créées par [Christina Truong](http://christinatruong.com/) pour [Canada en programmation](http://canadalearningcode.ca/fr).
 
